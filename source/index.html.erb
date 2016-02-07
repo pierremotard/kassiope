@@ -1,10 +1,110 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Kassiopé Project
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<%= stylesheet_link_tag "all" %>
+
+<body>
+    <div id="wrapper">
+      <h1 class="slideExpandUp">Our Kassiopé Project</h1>
+      <!-- Button trigger modal -->
+    </div>
+
+    <div id="homepage">
+
+      <div id="issue">
+        <div class="container-fluid">
+          <h2>What is the issue ? </h2>
+          <div class="row">
+            <div class="issue-text col-md-8">
+              <h4>Obtaining glasses is a distant dream for billions of people !</h4>
+              <p>
+                Access to proper glasses and especially eye care is highly restricted in most urbanizing countries.<br/>
+                According to the World Health Organization, well over a billion people suffer from refractive error making it
+                the number one cause for low vision in our world. Lack of proper eyesight engenders terrible consequences to
+                those affected by it.<br/><br/>
+                Indeed, opportunities diminish as one’s capacities decreases :
+                <ul>
+                  <li>Low eyesight impedes on literacy making better job offers and social emancipation impossible for a
+                  large percentage of the population</li>
+                  <li>Quality of life recedes as everyday tasks become a challenge</li>
+                  <li>General health can also be greatly deteriorated and in the worst cases may lead to blindness</li>
+                </ul>
+              </p>
+            </div>
+
+            <div class="issue-image col-md-4">
+              <%= image_tag "plusieurs.jpg", class: "img-rounded" %>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="action">
+        <h2>Our action in Ahmedabad</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="action-img col-md-4">
+              <%= image_tag "readindia.png", class: "left-image img-rounded" %>
+            </div>
+
+            <div class="action-text col-md-8">
+              <ul>
+                <li>Our project will take place during the summer break of 2016</li>
+                <li>Provide the students of the center with free eye tests</li>
+                <li>Order glasses from local opticians for the students in need of eye corrections</li>
+                <li>Teaching members of Manav Sadhna how to perform an eye test</li>
+                <li>Elaborate a collaboration between Manav Sadhna and donors for a monthly supply of glasses to the community</li>
+                <li>In that way, consolidate our project on the long run</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="us">
+        <h2>Let's talk about us !</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="us-text col-md-8">
+              <ul>
+                <li>Kassiopé is a non-lucrative association aimed at offering free eye care to the most disabled</li>
+                <li>It was created in June of 2015 by a group of six french students, all of whom study at the Lycée International of St.Germain en Laye</li>
+                <li>Primary target : Unearth diabetic retinopathy in regions lacking with eye doctors</li>
+                <li>Already implanted in France where the number of ophtalmologists has immensely decreased, we deciced to export us to India</li>
+                <li>Two of us, having already been to India and taught in one of the schools near the Gandhi Ashram, imagined a project of offering free eye tests and glasses to the numerous students, especially children</li>
+                <li>Kassiopé is associated to two companies : LeVisologiste & MXOphtalmic who can offer cheap(er) equipment, supervise our projects and most importantly, make us look credible and trustworthy to future professional partners</li>
+              </ul>
+            </div>
+
+            <div class="us-img col-md-4">
+              <%= image_tag "coffee.jpg", class: "img-rounded" %>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div> <!--Close id homepage -->
+
+
+    <div id="donation" style="text-align:center">
+      <a target="_blank" href="https://www.gofundme.com" class="btn btn-warning btn-lg active" role="button">I support Kassiopé</a>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>

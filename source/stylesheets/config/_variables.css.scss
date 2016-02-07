@@ -1,3 +1,12 @@
+
+//Police
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Amatic+SC:400,700' rel='stylesheet' type='text/css'");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+@font-face {
+  font-family: "gotham-light";
+  src: font-url('gotham-light.otf');
+}
+
 /* -------------------------------------
  * Fonts
  * ------------------------------------- */
@@ -37,3 +46,8 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+$title-font: "Amatic SC";
+$text-font: "gotham-light";
+
+// Scheme
