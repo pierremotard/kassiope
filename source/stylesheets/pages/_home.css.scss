@@ -6,28 +6,14 @@ html, body {
   line-height: 1.5em;
 }
 
-img {
-  display: inline-block;
-  height: 300px;
-  width: 400px;
-}
-
-.left-image {
-  margin-left: 50px;
-}
-
-.container-fluid {
-  line-height: 2em;
-  font-size: 18px;
-}
-
 
 #wrapper {
   background-image: image-url("classroom.jpg");
-  opacity: 0.85;
+  opacity: 0.9;
   background-size: cover;
   height: auto;
   min-height: 100%;
+  max-height: 100%;
   text-align: center;
   padding-top: 70px;
   h1 {
@@ -40,6 +26,8 @@ img {
     font-size: 150px;
     letter-spacing: 15px;
   }
+  .arrow {
+  }
 }
 
 
@@ -51,11 +39,40 @@ h2 {
 }
 
 h4 {
-  font-weight: bold;
+  font-family: bold;
+  font-family: "aleo-regular";
+  font-size: 28px;
   text-align: center;
   padding-bottom: 1em;
 }
 
+.feature {
+  text-align: center;
+  font-family: $text-font;
+  font-size: 22px;
+}
+
+.feature img {
+    margin: 2em 0em 2em 0em;
+}
+
+#issue {
+    margin-top: 50px;
+    height: auto;
+    min-height: 100%;
+}
+
+#action {
+  height: auto;
+  min-height: 100%;
+  font-size: 20px;
+  li {
+    padding-bottom: 1em;
+  }
+  img {
+    text-align: center;
+  }
+}
 
 #donation {
   margin: 30px 0px 50px 0px;

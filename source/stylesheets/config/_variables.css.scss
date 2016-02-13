@@ -7,6 +7,16 @@
   src: font-url('gotham-light.otf');
 }
 
+@font-face {
+  font-family: "aleo-regular";
+  src: font-url('aleo-regular.ttf');
+}
+
+@font-face {
+  font-family: "aleo-light";
+  src: font-url('aleo-light.ttf');
+}
+
 /* -------------------------------------
  * Fonts
  * ------------------------------------- */
@@ -48,6 +58,6 @@ $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
 
 $title-font: "Amatic SC";
-$text-font: "gotham-light";
+$text-font: "aleo-light";
 
 // Scheme
