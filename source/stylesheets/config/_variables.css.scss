@@ -1,6 +1,6 @@
 
 //Police
-@import url("https://fonts.googleapis.com/css?family=atic+SC:400,700' rel='stylesheet' type='text/css'");
+//@import url("https://fonts.googleapis.com/css?family=atic+SC:400,700' rel='stylesheet' type='text/css'");
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 @font-face {
   font-family: "gotham-light";
@@ -10,6 +10,11 @@
 @font-face {
   font-family: "aleo-regular";
   src: font-url('aleo-regular.ttf');
+}
+
+@font-face {
+  font-family: "amatic";
+  src: font-url('amaticbold.ttf');
 }
 
 @font-face {
@@ -35,7 +40,7 @@ $header-font: "Montserrat", "sans-serif";
 // }
 // $my-font: "Font Name";
 
-$title-font: "Amatic SC";
+$title-font: "amatic";
 $text-font: "aleo-light";
 
 // Font-size and line-height
