@@ -23,8 +23,13 @@ html, body {
     color: black;
     font-family: $title-font;
     font-weight: bold;
-    font-size: 150px;
     letter-spacing: 15px;
+    font-size: 100px;;
+  }
+  a {
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 24px;
   }
   .arrow {
     position: absolute;
@@ -84,10 +89,15 @@ h4 {
   }
 }
 
-#donation {
-  margin: 30px 0px 50px 0px;
-  a {
-    padding: 30px;
-    font-size: 40px;
+#us {
+  p {
+    text-align: center;
   }
+  img {
+    height: 300px;
+  }
+}
+
+.space {
+  height: 100px;
 }

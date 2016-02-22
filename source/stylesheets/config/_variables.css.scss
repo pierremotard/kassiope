@@ -1,6 +1,6 @@
 
 //Police
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Amatic+SC:400,700' rel='stylesheet' type='text/css'");
+@import url("https://fonts.googleapis.com/css?family=atic+SC:400,700' rel='stylesheet' type='text/css'");
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 @font-face {
   font-family: "gotham-light";
@@ -35,10 +35,26 @@ $header-font: "Montserrat", "sans-serif";
 // }
 // $my-font: "Font Name";
 
-// Font-size and line-height
-$base-size: 16px;
-$base-height: 1.4;
+$title-font: "Amatic SC";
+$text-font: "aleo-light";
 
+// Font-size and line-height
+/*$base-size {
+  @media screen and (max-width: 1920px) {
+    $base-size {
+      font-size: 150px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    $base-size {
+      font-size: 20px;
+    }
+  }
+}*/
+
+$title-font-size-lg: 150px;
+$title-font-size-md: 60px;
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -57,7 +73,6 @@ $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
 
-$title-font: "Amatic SC";
-$text-font: "aleo-light";
+
 
 // Scheme
