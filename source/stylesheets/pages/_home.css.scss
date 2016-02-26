@@ -13,6 +13,16 @@ html, body {
   background-size: cover;
   height: 600px;
   padding-top: 70px;
+  .arrow {
+    position: relative;
+    width: 100px;
+    color: black;
+    margin-left: -50px;
+    left: 50%;
+    bottom: -240px;
+    text-align: center;
+    font-size: 80px;
+  }
   .writings {
     float: right;
     h1 {
@@ -47,18 +57,7 @@ html, body {
         transition-delay: initial;
         -webkit-transition-delay: initial;
       }
-
-  }
-
-  }
-  .arrow {
-    position: absolute;
-    width: 100px;
-    margin-left: -50px;
-    bottom: 15px;
-    left: 50%;
-    text-align: center;
-    font-size: 60px;
+    }
   }
 }
 
@@ -134,7 +133,7 @@ h4 {
     text-align: center;
     font-family: $text-font;
     font-size: 20px;
-    line-height: 2.3em;
+    line-height: 2em;
   }
   img {
     height: 300px;
