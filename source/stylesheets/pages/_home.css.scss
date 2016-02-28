@@ -15,19 +15,18 @@ html, body {
   max-height: 100%;
   padding-top: 70px;
   .arrow {
-    position: relative;
+    position: absolute;
     width: 100px;
     color: black;
     margin-left: -50px;
     left: 50%;
-    bottom: -250px;
+    bottom: -20px;
     text-align: center;
     font-size: 80px;
   }
   .writings {
     float: right;
     h1 {
-      opacity: 1;
       margin-top: 40px;
       color: white;
       font-family: $title-font;
