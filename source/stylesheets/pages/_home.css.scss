@@ -35,11 +35,13 @@ html, body {
     }
     .button a {
       position: relative;
+      width: 200px;
+      text-align: center;
       font-style: sans-serif;
       font-weight: bold;
       margin-top: 70px;
       padding: 18px;
-      font-size: 13px;
+      font-size: 15px;
       background-color: transparent;
       border: 1px solid #fff;
       text-transform: uppercase;
@@ -91,7 +93,6 @@ h4 {
 .box {
   margin: 50px 80px 50px 80px;
   padding: 30px;
-  background-color: #eee;
   border-radius: 1;
   max-width: 1200px;
   width: auto;
@@ -100,9 +101,12 @@ h4 {
 }
 
 #issue {
-    padding-top: 35px;
+    background-image: image-url("flamme-web3.gif");
+    background-size: cover;
     height: auto;
-    min-height: 80%;
+    min-height: 100%;
+    max-height: 100%;
+    padding-top: 35px;
     line-height:2.5em;
 }
 
