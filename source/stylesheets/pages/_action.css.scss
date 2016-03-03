@@ -11,6 +11,10 @@
     font-family: $title-font;
     letter-spacing: 15px;
     font-size: 60px;
+    @media screen and (max-width:800px) {
+      font-size: 50px;
+      margin-top: 30px;
+    }
   }
 
 }
@@ -18,4 +22,5 @@
 .issue-text {
   margin-top: -40px;
   margin-bottom: -45px;
+
 }
