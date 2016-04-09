@@ -12,16 +12,17 @@ html, body {
   height: auto;
   min-height: 100%;
   padding-top: 70px;
-
-  .arrow {
-    position: absolute;
-    width: 100px;
-    color: black;
-    margin-left: -50px;
-    left: 50%;
-    bottom: -20px;
-    text-align: center;
-    font-size: 80px;
+  @media screen and (min-width:800px) {
+    .arrow {
+      position: absolute;
+      width: 100px;
+      color: black;
+      margin-left: -50px;
+      left: 50%;
+      bottom: -20px;
+      text-align: center;
+      font-size: 80px;
+    }
   }
   .writings {
     float: right;
@@ -77,12 +78,18 @@ html, body {
   }
 }
 
+h1 {
+
+}
 
 h2 {
   font-family: $title-font;
   font-size: 75px;
   text-align: center;
   padding: 30px 0px 30px 0px;
+  @media screen and (max-width:800px) {
+    font-size: 60px;
+  }
 }
 
 h4 {
@@ -92,6 +99,10 @@ h4 {
   text-align: center;
   padding-bottom: 1em;
   line-height: 4em;
+  @media screen and (max-width:800px) {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
 }
 
 .feature {
@@ -112,11 +123,22 @@ h4 {
   width: auto;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width:800px) {
+    padding: 5px;
+  }
 }
 
 #issue {
     padding-top: 35px;
     line-height:2.5em;
+    .logo-homepage {
+      width: 150px;
+      height: 150px;
+      @media screen and (max-width:800px) {
+        width: 100px;
+        height: 100px;
+      }
+    }
 }
 
 #action {
