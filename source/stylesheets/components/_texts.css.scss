@@ -3,6 +3,10 @@
   text-align: justify;
   font-size: 18px;
   line-height: 2.3em;
+  @media screen and (max-width:800px) {
+    margin: 0px 20px 0px 20px;
+    line-height: 1.6em;
+  }
 }
 
 .next-to-photo-text {
