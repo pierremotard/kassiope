@@ -41,6 +41,29 @@ $navbar-blue: #34496F;
   }
 }
 
+.france-flag {
+  float: left;
+  left: 100px;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  &:hover {
+    color: white;
+    font-size: 50px;
+    transform: rotate(5deg);
+  }
+}
+
+.england-flag {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
 .navbar-transparent .navbar-nav > li > a{
   color: white;
   line-height: 40px;
