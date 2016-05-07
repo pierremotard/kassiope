@@ -42,30 +42,30 @@ $navbar-blue: #34496F;
 }
 
 .france-flag {
-  float: left;
-  left: 100px;
+  position: absolute;
   margin-top: 20px;
+  margin-left: auto;
   width: 30px;
   height: 30px;
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
   &:hover {
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
   }
 }
 
 .england-flag {
   position: absolute;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
   width: 30px;
   height: 30px;
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
   &:hover {
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
   }
 }
 
