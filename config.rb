@@ -36,9 +36,10 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+
+activate :livereload
+
+activate :i18n, :path => "/langs/:locale/"
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -64,6 +65,7 @@ configure :build do
   # Enable cache buster
   # activate :asset_hash
 
+  activate :i18n
   # Use relative URLs
   activate :relative_assets
   set :relative_links, true
