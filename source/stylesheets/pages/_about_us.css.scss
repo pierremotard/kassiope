@@ -1,3 +1,17 @@
 .about-us-text {
   margin-top: 60px;
 }
+
+
+#members {
+  margin: 80px 0px 0px 40px;
+  .photo-us {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  h3 {
+    text-align: center;
+    padding-right: 60px;
+  }
+}

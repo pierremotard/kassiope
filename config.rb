@@ -37,9 +37,8 @@
 
 # Reload the browser automatically whenever files change
 
-activate :livereload
 
-activate :i18n, :path => "/langs/:locale/"
+activate :i18n, :path => "/:locales/"
 
 # Methods defined in the helpers block are available in templates
 # helpers do
