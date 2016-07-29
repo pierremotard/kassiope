@@ -1,0 +1,13 @@
+.blog {
+  margin: 100px 80px 0px 80px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.7em;
+  h3 {
+    text-align: center;
+  }
+  @media screen and (max-width:800px) {
+    margin: 0px 20px 0px 20px;
+    line-height: 1.6em;
+  }
+}
