@@ -1,0 +1,21 @@
+.article {
+  margin-top: 100px;
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    text-align: center;
+  }
+}
+
+.before {
+  margin-top: 60px;
+  .col-xs-4 {
+    width: 100px;
+    img {
+      margin: auto;
+      width: 400px;
+      text-align: center;
+    }
+  }
+}
