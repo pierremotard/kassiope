@@ -69,6 +69,38 @@ $navbar-blue: #34496F;
   }
 }
 
+
+.facebook-logo {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+
+.instagram-logo {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  &:hover {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+
+
 .navbar-transparent .navbar-nav > li > a{
   color: white;
   line-height: 40px;
