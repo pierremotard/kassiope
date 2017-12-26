@@ -1,0 +1,53 @@
+---
+title: Kassiopé Project
+---
+
+<%= stylesheet_link_tag "all" %>
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+<!--
+  <div id="members">
+    <div class="container">
+      <div class="row">
+        <% data.members.each do |member| %>
+          <div class="col-xs-6 col-md-3">
+            <div class="description">
+              <%= image_tag member.image_file, class: "photo-us img-circle" %>
+              <h3><%= member.name %> </h3>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+-->
+  <div class="photo-us">
+    <%= image_tag "nous.jpg", class:"photo-of-us", alt:"Photo of our team" %>
+  </div>
+
+  <div class="about-us-text primary-text">
+
+    <h2>Contact Us </h2>
+    <p>
+    If you have any question, please send us a mail at :  <a href="mailto:matthew.morvan@gmail.com" target="_top">matthew.morvan@gmail.com</a>
+    </p>
+    <h2>Short presentation</h2>
+    <p> <%= t(:presentation) %> </p>
+    <h2>Our target</h2>
+    <p> <%= t(:target) %> </p>
+  </div>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-77432133-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
