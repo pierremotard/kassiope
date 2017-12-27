@@ -1,0 +1,144 @@
+---
+title: Kassiopé Project
+---
+
+<%= stylesheet_link_tag "all" %>
+<head>
+  <title>Kassiope Project - India</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Kassiope is a humanitarian mission which aims offering kids in Ahmedabad's schools in India an access to acuteness tests and glasses">
+</head>
+<body>
+    <div id="wrapper">
+      <div class="row">
+        <div class="col-sm- 2 col-md-4">
+        </div>
+        <div class="col-xs-12 col-sm-10 col-md-8 text-center writings">
+          <h1 class="slideExpandUp"><%= t(:title) %></h1>
+          <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <div class="button">
+                <a target="_blank" href="https://www.youtube.com/watch?v=X_p1EzLEwCI" class="btn btn-warning btn-lg"><%= t(:video) %></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <div class="button">
+                <a target="_blank" href="https://www.gofundme.com/27k8efnw" class="btn btn-warning btn-lg"><%= t(:support) %></a>
+              </div>
+            </div>
+            <div class="col-xs-2">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 arrow text-center">
+          <a href="#issue">
+            <i class="fa fa-angle-down pulse" style="color: black; margin-bottom: 15px;"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+      <div id="issue">
+        <div class="container box">
+          <h2>What is the issue?</h2>
+          <h4>1.000.000.000 people suffer from refractive error!</h4>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="challenge scrollReveal feature col-md-4 col-sm-6 col-xs-12">
+                <%= image_tag "rub.svg", class: "logo-homepage", alt: "Rubikube"%>
+                <p>Every daily task becomes a challenge!</p>
+              </div>
+
+              <div class="read scrollReveal feature col-md-4 col-sm-6 col-xs-12">
+                <%= image_tag "read-book-logo.svg", class: "logo-homepage", alt: "Books"%>
+                <p>Studying results impossible!</p>
+              </div>
+
+              <div class="glasses scrollReveal feature col-md-4 col-xs-12">
+                <%= image_tag "glasses.svg", class: "logo-homepage", alt: "Glasses"%>
+                <p>Glasses are not affordable!</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="action" class="box">
+        <h2>Our action at Ahmedabad in India</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="next-to-photo-text col-md-7 col-sm-8 col-xs-12">
+              <ul>
+                <li>Our project will take place during the summer break of 2016</li>
+                <li>Provide the students of the center with free eye tests</li>
+                <li>Order glasses from local opticians for the students in need of eye corrections</li>
+                <li>Teaching members of Manav Sadhna how to perform an eye test</li>
+                <li>Elaborate a collaboration between Manav Sadhna and donors for a monthly supply of glasses to the community</li>
+                <li>In that way : Consolidate our project on the long run</li>
+              </ul>
+            </div>
+
+            <div class="action-img text-center col-md-5 col-sm-4">
+              <%= image_tag "fille.png", class: "hidden-xs", alt: "Indian girl"%>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="us" class="box">
+
+        <div class="container-fluid">
+          <h2>Let's talk about us !</h2>
+          <div class="row">
+
+            <div class="us-img text-center col-sm-5">
+              <%= image_tag "matt.png", class: "img-rounded hidden-xs" %>
+            </div>
+
+
+            <div class="us-text next-to-photo-text col-sm-7">
+              <ul>
+                <li>Kassiopé is a non-lucrative association aimed at offering free eye care to the most disabled</li>
+                <li>Two of us, having already been to India and taught in one of the schools near the Gandhi Ashram, imagined a project of offering free eye tests and glasses to the numerous students, especially children</li>
+                <li>We all share the ambition : Travel to India, together, for the purpose of offering to children a decent quality of life, beginning by a suitable eyesight.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div> <!--Close id us -->
+
+      <div class="space">
+
+      </div>
+
+
+
+
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-77432133-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </body>
