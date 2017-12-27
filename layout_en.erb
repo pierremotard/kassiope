@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- For Bootstrap responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <%= stylesheet_link_tag :all %>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to "Kassiopé", "en-index.html", class: "navbar-brand" %>
+          <a href="../fr-index.html">
+            <%= image_tag "france-flag.png", class: "france-flag img-circle" %>
+          </a>
+          <a href="en/en-index.html">
+            <%= image_tag "england-flag.png", class: "england-flag img-circle" %>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/kassiopeproject/">
+            <%= image_tag "facebook-logo.png", class: "facebook-logo img-circle" %> 
+          </a> 
+          <a target="_blank" href="https://www.instagram.com/kassiope/">
+            <%= image_tag "instagram-logo.png", class: "instagram-logo img-circle" %> 
+          </a> 
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Our action", "en-action.html" %></li>
+            <li><%= link_to "Our adventure", "en-adventure.html" %></li>
+            <li><%= link_to "About us", "en-about_us.html" %></li>
+            <li><%= link_to "Our partners", "en-partners.html" %></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+
+    <%= yield %>
+  </body>
+</html>
