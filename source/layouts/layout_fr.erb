@@ -32,8 +32,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <%= link_to "Kassiopé", "en-index.html", class: "navbar-brand" %>
-          <a href="../index.html">
+          <%= link_to "Kassiopé", "index.html", class: "navbar-brand" %>
+          <a href="index.html">
             <%= image_tag "france-flag.png", class: "france-flag img-circle" %>
           </a>
           <a href="en/en-index.html">
@@ -45,22 +45,21 @@
           <a target="_blank" href="https://www.instagram.com/kassiope/">
             <%= image_tag "instagram-logo.png", class: "instagram-logo img-circle" %> 
           </a> 
+          
 
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Our action", "en-action.html" %></li>
-            <li><%= link_to "Our adventure", "en-adventure.html" %></li>
-            <li><%= link_to "About us", "en-about_us.html" %></li>
-            <li><%= link_to "Our partners", "en-partners.html" %></li>
+            <li><%= link_to "Notre action", "fr-action.html" %></li>
+            <li><%= link_to "Notre aventure", "fr-adventure.html" %></li>
+            <li><%= link_to "A propos de nous", "fr-about_us.html" %></li>
+            <li><%= link_to "Nos partenaires", "fr-partners.html" %></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
-
 
     <%= yield %>
   </body>
