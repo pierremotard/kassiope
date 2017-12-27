@@ -142,7 +142,8 @@ h4 {
 }
 
 #action {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3…9IjAuNSIgZmlsbD0ibm9uZSIgd2lkdGg9Ijk3MCIgaGVpZ2h0PSIxMS40ODEiLz48L3N2Zz4=");
+  /*background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3…9IjAuNSIgZmlsbD0ibm9uZSIgd2lkdGg9Ijk3MCIgaGVpZ2h0PSIxMS40ODEiLz48L3N2Zz4=");*/
+  /*background-image: image-url("groupe-enfants.jpg")*/
   height: auto;
   min-height: 80%;
   font-size: 20px;
@@ -150,7 +151,7 @@ h4 {
     padding-bottom: 1em;
   }
   img {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 40px;
     text-align: center;
     max-width: 95%;
@@ -160,9 +161,12 @@ h4 {
 
 #us {
   img {
-    height: 300px;
-    margin-top: 35px;
+    height: auto;
+    max-height: 100%;
+    margin-top: 10px;
     text-align: center;
+    width: auto;
+    max-width: 95%;
   }
 }
 
