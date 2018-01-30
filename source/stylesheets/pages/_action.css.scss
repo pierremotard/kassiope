@@ -63,8 +63,11 @@
 
     /*----- Tab Links -----*/
     /* Clearfix */
+    .tab-links {
+    background: #edefed
+    }
     .tab-links:after {
-        display:inline-block;
+        /*display:inline-block;*/
         clear:both;
         content:'';
         list-style:none;
@@ -74,17 +77,17 @@
     .tab-links li {
         margin:0px 0px;
         text-align: center;
-        display:inline-block;
+        /*display:inline-block;*/
         list-style:none;
         position:relative;
         float:none;
-        margin-left: 250px;
+        /*margin-left: 250px;*/
         
     }
 
         .tab-links a {
             padding:30px 60px;
-            display:inline-block;
+            /*display:inline-block;*/
             border-radius:0px 0px 0px 0px;
             background: #34496F;
             opacity: 0.8;
