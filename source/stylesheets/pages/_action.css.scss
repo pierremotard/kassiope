@@ -41,7 +41,7 @@
 .action {
     width:100%;
     overflow:hidden;
-    text-align: center; 
+    text-align: center;
 }
     .nav nav-tabs {
         display: inline-block;
@@ -82,11 +82,11 @@
         position:relative;
         float:none;
         /*margin-left: 250px;*/
-        
+
     }
 
         .tab-links a {
-            padding:30px 60px;
+            padding:0px 0px;
             /*display:inline-block;*/
             border-radius:0px 0px 0px 0px;
             background: #34496F;
@@ -94,12 +94,12 @@
             font-family: $title-font;
             font-size:48px;
             font-weight:500;
-            color: white;
+            color: blue;
             transition:all linear 0.15s;
         }
 
         .tab-links a:hover {
-            background:#8499BF;
+            background:#840000;
             opacity: 0.8;
             text-decoration:none;
         }
@@ -126,5 +126,3 @@
         .tab.active {
             display:block;
         }
-
-
