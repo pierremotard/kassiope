@@ -1,5 +1,5 @@
 .blog {
-  margin: 100px 80px 0px 80px;
+  margin: 20px 80px 20px 80px;
   text-align: justify;
   font-size: 18px;
   line-height: 1.7em;
@@ -60,7 +60,7 @@
 
 
 /*----- Tabs -----*/
-.nav-tabs {
+.tabs {
     width:100%;
     overflow:hidden;
     text-align: center;
@@ -77,14 +77,15 @@
     }
 
     .tab-links li {
-        margin:0px 0px;
+      
+
         text-align: center;
         display:inline-block;
         list-style:none;
         position:relative;
         float:none;
-        margin-left: 250px;
-        
+
+
     }
 
         .tab-links a {
@@ -128,5 +129,3 @@
         .tab.active {
             display:block;
         }
-
-
