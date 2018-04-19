@@ -10,6 +10,35 @@ $navbar-blue: #34496F;
 /*-----------------------------------------------------------------------
 *SCSS
 *------------------------------------------------------------------------*/
+@media (max-width: 952px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        overflow: hidden !important;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .navbar-collapse *[class*='navbar-'] {
+        float: none!important;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li > a {
+
+    }
+}          
+
 .navbar-transparent {
   height: $navbar-height;
   background-color: $navbar-blue;
@@ -76,8 +105,15 @@ $navbar-blue: #34496F;
 
 .facebook-logo {
   position: absolute;
+  @media (max-width: 1049px) {
+    margin-left: 100px;
+  }
+  @media (min-width: 1050px) {
+    margin-left: 200px;
+  }
+  position: absolute;
+  margin-right : 675px;
   margin-top: 20px;
-  margin-left: 150px;
   width: 30px;
   height: 30px;
   -webkit-transition: 0.1s linear;
@@ -90,8 +126,13 @@ $navbar-blue: #34496F;
 
 .instagram-logo {
   position: absolute;
+  @media (max-width: 1049px) {
+    margin-left: 150px;
+  }
+  @media (min-width: 1050px) {
+    margin-left: 250px;
+  }
   margin-top: 20px;
-  margin-left: 200px;
   width: 30px;
   height: 30px;
   -webkit-transition: 0.1s linear;
@@ -108,7 +149,7 @@ $navbar-blue: #34496F;
 .navbar-transparent .navbar-nav > li > a{
   color: white;
   line-height: 40px;
-  margin-top: 0px;
+  margin-top: 5px;
   padding-right: 30px;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
