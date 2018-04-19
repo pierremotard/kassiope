@@ -27,6 +27,10 @@ $navbar-blue: #34496F;
   font-size: 30px;
 }
 
+.navbar-collapse {
+  background-color: $navbar-blue;
+}
+
 .navbar-transparent .navbar-brand {
   color: white;
   line-height: 40px;
