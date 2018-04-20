@@ -42,7 +42,7 @@ $navbar-blue: #34496F;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-}           
+}
 
 .navbar-transparent {
   height: $navbar-height;
@@ -90,69 +90,60 @@ $navbar-blue: #34496F;
       }
     }
 
-.france-flag {
+.pin {
   position: absolute;
   margin-top: 20px;
-  margin-left: auto;
   width: 30px;
   height: 30px;
+  margin-left: auto;
+  @media only screen and (max-width: 600px) {
+    margin-top: 25px;
+    width: 22px;
+    height: 22px;
+    margin-left: auto;
+  }
+
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
   &:hover {
     width: 34px;
     height: 34px;
+    @media only screen and (max-width: 600px) {
+      width: 22px;
+      height: 22px;
+    }
   }
+}
+
+.france-flag {
+  // None
 }
 
 .england-flag {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 50px;
-  width: 30px;
-  height: 30px;
-  -webkit-transition: 0.1s linear;
-  transition: 0.1s linear;
-  &:hover {
-    width: 34px;
-    height: 34px;
-  }
+  margin-left: 40px;
 }
 
-
 .facebook-logo {
-  position: absolute;
-  margin-top: 20px;
-  width: 30px;
-  height: 30px;
-  @media (max-width: 1049px) {
-    margin-left: 100px;
+  @media (max-width: 1020px) {
+    margin-left: 90px;
   }
-  @media (min-width: 1050px) {
+  @media (max-width: 600px) {
+    margin-left: 75px;
+  }
+  @media (min-width: 1021px) {
     margin-left: 200px;
-  }
-  -webkit-transition: 0.1s linear;
-  transition: 0.1s linear;
-  &:hover {
-    width: 34px;
-    height: 34px;
   }
 }
 
 .instagram-logo {
-  position: absolute;
-  margin-top: 20px;
-  width: 30px;
-  height: 30px;
-  @media (max-width: 1049px) {
-    margin-left: 150px;
+  @media (max-width: 1020px) {
+    margin-left: 130px;
   }
-  @media (min-width: 1050px) {
+  @media (max-width: 600px) {
+    margin-left: 110px;
+  }
+  @media (min-width: 1021px) {
     margin-left: 250px;
   }
-  -webkit-transition: 0.1s linear;
-  transition: 0.1s linear;
-  &:hover {
-    width: 34px;
-    height: 34px;
-  }
+
 }
