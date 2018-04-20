@@ -120,7 +120,10 @@ $navbar-blue: #34496F;
 }
 
 .england-flag {
-  margin-left: 40px;
+  margin-left: 60px;
+  @media (max-width: 1020px) {
+    margin-left: 40px;
+  }
 }
 
 .facebook-logo {
@@ -131,7 +134,7 @@ $navbar-blue: #34496F;
     margin-left: 75px;
   }
   @media (min-width: 1021px) {
-    margin-left: 200px;
+    margin-left: 190px;
   }
 }
 
