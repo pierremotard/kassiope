@@ -18,9 +18,11 @@ $navbar-blue: #34496F;
         display: block;
     }
     .navbar-collapse {
+        margin-top: 13px;
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
         overflow: hidden !important;
+        background-color: $navbar-blue;
     }
     .navbar-collapse.collapse {
         display: none!important;
@@ -30,7 +32,7 @@ $navbar-blue: #34496F;
     }
     .navbar-collapse *[class*='navbar-'] {
         float: none!important;
-        margin: 7.5px -15px;
+        //margin: 7.5px -15px;
     }
     .navbar-nav > li {
         float: none;
@@ -56,10 +58,6 @@ $navbar-blue: #34496F;
 .navbar .navbar-nav {
   font-family: $title-font;
   font-size: 30px;
-}
-
-.navbar-collapse {
-  background-color: $navbar-blue;
 }
 
 .navbar-transparent .navbar-brand {
