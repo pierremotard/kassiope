@@ -30,14 +30,16 @@ $navbar-blue: #34496F;
     }
     .navbar-collapse *[class*='navbar-'] {
         float: none!important;
+        margin: 7.5px -15px;
     }
     .navbar-nav > li {
         float: none;
     }
     .navbar-nav > li > a {
-
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-}          
+}           
 
 .navbar-transparent {
   height: $navbar-height;
@@ -74,6 +76,19 @@ $navbar-blue: #34496F;
   }
 }
 
+.navbar-transparent .navbar-nav > li > a{
+      color: white;
+      line-height: 40px;
+      margin-top: -1px;
+      padding-right: 30px;
+      -webkit-transition: 0.2s linear;
+      transition: 0.2s linear;
+      &:hover {
+        color: white;
+        font-size: 38px;
+      }
+    }
+
 .france-flag {
   position: absolute;
   margin-top: 20px;
@@ -105,17 +120,15 @@ $navbar-blue: #34496F;
 
 .facebook-logo {
   position: absolute;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
   @media (max-width: 1049px) {
     margin-left: 100px;
   }
   @media (min-width: 1050px) {
     margin-left: 200px;
   }
-  position: absolute;
-  margin-right : 675px;
-  margin-top: 20px;
-  width: 30px;
-  height: 30px;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
   &:hover {
@@ -126,35 +139,19 @@ $navbar-blue: #34496F;
 
 .instagram-logo {
   position: absolute;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
   @media (max-width: 1049px) {
     margin-left: 150px;
   }
   @media (min-width: 1050px) {
     margin-left: 250px;
   }
-  margin-top: 20px;
-  width: 30px;
-  height: 30px;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
   &:hover {
     width: 34px;
     height: 34px;
-  }
-}
-
-
-
-
-.navbar-transparent .navbar-nav > li > a{
-  color: white;
-  line-height: 40px;
-  margin-top: 5px;
-  padding-right: 30px;
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
-  &:hover {
-    color: white;
-    font-size: 38px;
   }
 }
