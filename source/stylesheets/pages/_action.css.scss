@@ -18,6 +18,23 @@
   }
 }
 
+.primary-text-action {
+  margin: 20px 80px 20px 80px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.7em;
+  h2 {
+    font-size: 48px;
+  }
+  @media screen and (max-width:800px) {
+    margin: 0px 20px 0px 20px;
+    line-height: 1.6em;
+    h2 {
+      font-size: 38px;
+    }
+  }
+}
+
 /*
 .issue-text {
   margin: -40px auto -45px auto;
@@ -94,6 +111,9 @@
             font-family: $title-font;
             font-size:48px;
             font-weight:500;
+            @media screen and (max-width:800px) {
+                font-size:20px;
+            }
             color: blue;
             transition:all linear 0.15s;
         }
