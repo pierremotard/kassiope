@@ -54,25 +54,11 @@
 }
 
 
-/* bootstrap failed attempt for tabs
-.action {
-    width:100%;
-    overflow:hidden;
-    text-align: center;
-}
-    .nav nav-tabs {
-        display: inline-block;
-        position:relative
-    }
-*/
-
-
-
 
 
 
 /*----- Tabs -----*/
-.nav-tabs {
+onglets-action .tabs {
     width:100%;
     overflow:hidden;
     text-align: center;
@@ -80,11 +66,8 @@
 
     /*----- Tab Links -----*/
     /* Clearfix */
-    .tab-links {
-    background: #edefed
-    }
     .tab-links:after {
-        /*display:inline-block;*/
+        display:inline-block;
         clear:both;
         content:'';
         list-style:none;
@@ -92,34 +75,38 @@
     }
 
     .tab-links li {
-        margin:0px 0px;
+      
+
         text-align: center;
-        /*display:inline-block;*/
+        //display:inline-block;
         list-style:none;
-        position:relative;
-        float:none;
-        /*margin-left: 250px;*/
+        position: absolute;
+        //float:none;
+
 
     }
 
         .tab-links a {
-            padding:0px 0px;
-            /*display:inline-block;*/
+            padding:30px 60px;
+            display:inline-block;
             border-radius:0px 0px 0px 0px;
             background: #34496F;
             opacity: 0.8;
             font-family: $title-font;
             font-size:48px;
             font-weight:500;
-            @media screen and (max-width:800px) {
-                font-size:20px;
-            }
-            color: blue;
+            color: white;
+            width: 261px;
+            height: auto;
+            max-height: 81px;
             transition:all linear 0.15s;
+            @media screen and (max-width: 800px) {
+                font-size: 20px;
+            }
         }
 
         .tab-links a:hover {
-            background:#840000;
+            background:#8499BF;
             opacity: 0.8;
             text-decoration:none;
         }
