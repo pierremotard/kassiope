@@ -17,7 +17,7 @@
 # page "/path/to/file.html", :layout => false
 #
 # With alternative layout
-page "en/*", :layout => "layout_en"
+page "en/*", :layout => "layout_en.erb"
 #
 # A path which all have the same layout
 # with_layout :admin do
