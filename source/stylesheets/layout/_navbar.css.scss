@@ -10,7 +10,7 @@ $navbar-blue: #34496F;
 /*-----------------------------------------------------------------------
 *SCSS
 *------------------------------------------------------------------------*/
-@media (max-width: 952px) {
+@media (max-width: 980px) {
     .navbar-header {
         float: none;
     }
@@ -54,6 +54,10 @@ $navbar-blue: #34496F;
   font-family: $title-font;
   font-size: 40px;
   padding-left: 30px;
+  @media only screen and (max-width: 350px) {
+    padding-left: 20px;
+    font-size: 30px;
+  }
 }
 
 .navbar .navbar-nav {
@@ -66,12 +70,18 @@ $navbar-blue: #34496F;
   line-height: 40px;
   margin-top: 0px;
   padding-right: 30px;
+  @media only screen and (max-width: 350px) {
+    padding-right: 20px;
+  }
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
   &:hover {
     color: white;
     font-size: 50px;
     transform: rotate(5deg);
+    @media only screen and (max-width: 350px) {
+    font-size: 35px;
+    }
   }
 }
 
@@ -96,7 +106,7 @@ $navbar-blue: #34496F;
   width: 30px;
   height: 30px;
   margin-left: auto;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 450px) {
     margin-top: 25px;
     width: 22px;
     height: 22px;
@@ -108,9 +118,9 @@ $navbar-blue: #34496F;
   &:hover {
     width: 34px;
     height: 34px;
-    @media only screen and (max-width: 600px) {
-      width: 22px;
-      height: 22px;
+    @media only screen and (max-width: 450px) {
+      width: 24px;
+      height: 24px;
     }
   }
 }
@@ -121,31 +131,52 @@ $navbar-blue: #34496F;
 
 .england-flag {
   margin-left: 60px;
-  @media (max-width: 1020px) {
+  @media (max-width: 400px) {
+    margin-left: 35px;
+  }
+  @media (min-width: 401px) and (max-width: 450px) {
     margin-left: 40px;
   }
 }
 
 .facebook-logo {
-  @media (max-width: 1020px) {
-    margin-left: 90px;
+  @media (max-width: 400px) {
+    margin-left: 70px;
   }
-  @media (max-width: 600px) {
-    margin-left: 75px;
+  @media (min-width: 401px) and(max-width: 450px) {
+    margin-left: 80px;
   }
-  @media (min-width: 1021px) {
+  @media (min-width: 451px) and (max-width: 600px) {
+    margin-left: 120px;
+  }
+  @media (min-width: 601px) and(max-width: 979px) {
+    margin-left: 190px;
+  }
+  @media (min-width: 980px) and (max-width: 1040px) {
+    margin-left: 120px;
+  }
+  @media (min-width: 1041px) {
     margin-left: 190px;
   }
 }
 
 .instagram-logo {
-  @media (max-width: 1020px) {
-    margin-left: 130px;
+  @media (max-width: 400px) {
+    margin-left: 105px;
   }
-  @media (max-width: 600px) {
-    margin-left: 110px;
+  @media (min-width: 401px) and(max-width: 450px) {
+    margin-left: 120px;
   }
-  @media (min-width: 1021px) {
+  @media (min-width: 451px) and (max-width: 600px) {
+    margin-left: 180px;
+  }
+  @media (min-width: 601px) and(max-width: 979px) {
+    margin-left: 250px;
+  }
+  @media (min-width: 980px) and (max-width: 1040px) {
+    margin-left: 180px;
+  }
+  @media (min-width: 1041px) {
     margin-left: 250px;
   }
 
