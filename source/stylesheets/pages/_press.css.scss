@@ -9,6 +9,13 @@
   }
   .article_presse {
     width: 100%;
+
+    .article_journalstgermain2018 {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      position: relative;
+    }
     
     .article_courrieryvelines2018 {
       display: block;
@@ -19,6 +26,7 @@
     a {
       margin-bottom: 20px;
     }
+
     .article_courrieryvelines2016 {
       display: block;
       max-width: 100%;
@@ -26,5 +34,4 @@
       position: relative;
     }
   }
-
 }
